@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "preserveConstEnums": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "outDir": "build/",
+    "declaration": true,
+    "module": "commonjs",
+    "lib": ["es5", "es6"]
+  },
+  "files": [
+    "index.ts"
+  ],
+  "exclude": [
+    "test",
+    "__test__",
+    "node_modules"
+  ]
+}
